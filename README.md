@@ -10,8 +10,7 @@ When doing pick or put operations, the BookshelfKeeper is only allowed to access
 The user input consists of the initial state of our bookshelf and a series of pick and put operations to perform; for each operation it will print out the contents of the updated bookshelf, the number of lower-level book-moving operations used, and the total number of lower-level operations used since the start of the program. 
 
 
-Here are two examples of runing the program in the Linux shell::
-
+Here are two examples of runing the program in the Linux shell:
 
 java -ea BookshelfKeeperProg
 
@@ -32,6 +31,7 @@ The interface for the BookshelfKeeper class, that enables users to perform effic
 BookshelfKeeperProg.java 
 
 A terminal-based interactive program that allows the user to perform a series of pick and put operations on a BookshelfKeeper object; contains the main method.  It can also be run in a batch mode by using input and output redirection.
+
 
 
 A note about the System.in Scanner
