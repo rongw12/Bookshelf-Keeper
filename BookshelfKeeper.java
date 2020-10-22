@@ -1,8 +1,3 @@
-// Name: Rong Wang
-// USC NetID: rwang424
-// CSCI455 PA2
-// Fall 2020
-
 import java.util.ArrayList;
 
 /**
@@ -16,13 +11,11 @@ import java.util.ArrayList;
 public class BookshelfKeeper {
 
   /**
-      Representation invariant:
-
-      <rep. invar. comment>
+      Representation invariant
       1: Height of all books should be positive integers.
       2: The BookShelfKeeper should be valid all the time, always in non-decreasing order of height.
-	  3：Total number of calls can not be negative.
-	  4: Number of calls for last operation can not be negative.
+      3：Total number of calls can not be negative.
+      4: Number of calls for last operation can not be negative.
    */
    
    // <instance variables>
