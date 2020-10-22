@@ -1,8 +1,3 @@
-// Name: Rong Wang
-// USC NetID: rwang424
-// CSCI455 PA2
-// Fall 2020
-
 import java.util.ArrayList;
 
 
@@ -20,8 +15,6 @@ public class Bookshelf {
 
    /**
       Representation invariant:
-
-      <rep. invar. comment>
       1: All books of the bookshelf have a positive height.
    
     * @param books: an arraylist of all the heights of input books.
