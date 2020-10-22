@@ -25,10 +25,12 @@ The interface for the Bookshelf class, that abstracts the idea of arranging book
 
 
 BookshelfKeeper.java 
+
 The interface for the BookshelfKeeper class, that enables users to perform efficient put or pick operation on a bookshelf while maintaining it in a sorted state.
 
 
 BookshelfKeeperProg.java 
+
 A terminal-based interactive program that allows the user to perform a series of pick and put operations on a BookshelfKeeper object; contains the main method.  It can also be run in a batch mode by using input and output redirection.
 
 
